@@ -1,7 +1,6 @@
 body {
   background-color: #f3eae3;
   display: flex;
-  flex-direction: column;
   padding: 40px;
   justify-content: center;
   margin: 0;
@@ -81,11 +80,10 @@ img {
 }
 
 .imagen {
-  display: flex;
   max-width: 400px;
-  gap: 40px;
+  gap: 10px;
   align-items: flex-start;
-  width: 300;
+  width: 300px;
   height: auto;
   border-radius: 8px;
   flex-shrink: 0;
@@ -96,7 +94,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 40px;
   max-width: 400px;
 
 }
