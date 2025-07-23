@@ -2,6 +2,10 @@ body {
   background-color: #f3eae3;
   display: flex;
   flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  margin: 0;
+
 }
 
 h1 {
@@ -15,6 +19,7 @@ h1 {
 
 h1 {
   color: #a1a3b0;
+
 }
 
 .titulo {
@@ -26,6 +31,9 @@ h1 {
   color: #a1a3b0;
   margin-top: 20px;
   margin-bottom: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+
 
 }
 
@@ -33,6 +41,9 @@ h1 {
 .titulo p {
   margin: 0;
   padding: 4px 0;
+  margin: 0 0 10px 0;
+  color: #1c232b;
+  font-size: 24px;
 }
 
 .descripcion {
@@ -43,6 +54,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: 1px;
   font-weight: bold;
+
 
 
 }
@@ -62,6 +74,47 @@ h1 {
 
 img {
   max-width: 100%;
+  width: 300px;
   height: auto;
-  display: block;
+
+
+}
+
+.imagen {
+  display: flex;
+  max-width: 400px;
+  gap: 40px;
+  align-items: flex-start;
+  width: 300;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.columnader {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 40px;
+  max-width: 400px;
+
+}
+
+.nombre {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  max-width: 900px;
+  margin: auto;
+  width: 100%;
 }
