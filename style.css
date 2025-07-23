@@ -1,9 +1,10 @@
 body {
   background-color: #f3eae3;
   display: flex;
-  padding: 40px;
   justify-content: center;
   margin: 0;
+  align-items: center;
+  height: 100vh;
 
 }
 
@@ -128,6 +129,10 @@ img {
   height: auto;
   display: flex;
   align-items: stretch;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+
 }
 
 .boton {
