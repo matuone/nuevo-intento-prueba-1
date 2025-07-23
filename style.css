@@ -78,18 +78,16 @@ h1 {
 }
 
 img {
-  max-width: 100%;
-  width: 300px;
   height: auto;
-
+  width: 100%;
+  object-fit: cover;
 
 }
 
 .imagen {
   width: 300px;
-  height: 100%;
-  flex-shrink: 0;
   display: flex;
+  align-items: stretch;
 
 }
 
@@ -98,10 +96,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 400px;
+  max-width: 100%;
   box-sizing: border-box;
   height: 100%;
-  padding: 20px;
+  padding: 20px 16px;
+  flex: 1;
+  width: fit-content;
 
 }
 
@@ -122,9 +122,12 @@ img {
   justify-content: center;
   align-items: stretch;
   gap: 0px;
-  max-width: 900px;
+  max-width: 500px;
   margin: auto;
   width: 100%;
+  height: auto;
+  display: flex;
+  align-items: stretch;
 }
 
 .boton {
@@ -138,8 +141,7 @@ img {
   padding: 12px 20px;
   border-radius: 8px;
   cursor: pointer;
-  width: 100%;
-
+  width: 200px;
 }
 
 .antiguo {
