@@ -30,9 +30,9 @@ h1 {
   letter-spacing: 2px;
   color: #a1a3b0;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+
 
 
 }
@@ -53,12 +53,12 @@ h1 {
 
 .descripcion {
   color: #a1a3b0;
-  font-family: serif;
-  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   max-width: 250px;
   line-height: 1.2;
-  letter-spacing: 1px;
-  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
 
 
 
@@ -74,7 +74,7 @@ h1 {
   display: flex;
   gap: 16px;
   align-items: center;
-  font-size: 20px
+  font-size: 30px
 }
 
 img {
@@ -139,5 +139,13 @@ img {
   border-radius: 8px;
   cursor: pointer;
   width: 100%;
+
+}
+
+.antiguo {
+  color: #a1a3b0;
+  font-size: 16px;
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
 
 }
