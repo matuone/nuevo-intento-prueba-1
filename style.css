@@ -149,6 +149,12 @@ img {
   width: 200px;
 }
 
+.boton i {
+  font-size: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 .antiguo {
   color: #a1a3b0;
   font-size: 16px;
