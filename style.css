@@ -14,6 +14,7 @@ h1 {
   font-style: normal;
   letter-spacing: 2px margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 h1 {
@@ -36,13 +37,18 @@ h1 {
 
 }
 
-.titulo h1,
+.titulo h1 {
+  font-size: 13px;
+  color: #4c4d4e;
+  margin: 0 0 10px 0;
+  letter-spacing: 5px;
+
+}
+
 .titulo p {
-  margin: 0;
-  padding: 4px 0;
+  font-size: 24px;
   margin: 0 0 10px 0;
   color: #1c232b;
-  font-size: 24px;
 }
 
 .descripcion {
@@ -80,38 +86,58 @@ img {
 }
 
 .imagen {
-  max-width: 400px;
-  gap: 10px;
-  align-items: flex-start;
   width: 300px;
-  height: auto;
-  border-radius: 8px;
+  height: 100%;
   flex-shrink: 0;
+  display: flex;
+
 }
 
 .columnader {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   max-width: 400px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px;
 
 }
 
 .nombre {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-optical-sizing: auto;
+  font-weight: 656;
+  font-style: normal;
   margin: 0;
+  line-height: 18px;
+
 
 }
 
 .fila {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 0px;
   max-width: 900px;
   margin: auto;
   width: 100%;
+}
+
+.boton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #3c8067;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+
 }
