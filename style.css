@@ -1,0 +1,26 @@
+body {
+  background-color: #f3eae3;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2px margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #a1a3b0;
+}
+
+.titulo {
+  font-family: serif;
+  font-size: 28px;
+  max-width: 250px;
+  line-height: 1.2;
+  margin: 0;
+  margin-left: 0;
+
+}
