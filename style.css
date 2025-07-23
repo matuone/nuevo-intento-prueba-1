@@ -68,10 +68,6 @@ h1 {
 .precio {
   color: #3d8168;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-weight: 1000;
   display: flex;
   gap: 16px;
   align-items: center;
